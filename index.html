@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="box">
+    <div class="main"></div>
+    <button id="startGame" class="btn btn-success">Start</button>
+    <input type="text" readonly class="input form-control" id="myStyleInput">
+    <div id="buttons">
+    <p style="font-family: serif; font-size: 18px; color: red">Choose complexity</p>
+    
+    <input type="radio" class="easy" name="complexity" value="easy" checked>
+    <label for="easy">Easy</label>
+    <br>
+    <input type="radio" class="normal" name="complexity" value="normal">
+    <label for="normal">Normal</label>
+    <br>
+    <input type="radio" class="hard" name="complexity" value="hard">
+    <label for="hard">Hard</label>
+    <br><br>
+    <input type="button" onClick="history.go(0)" value="Reset" class="btn btn-danger reset">
+    
+    </div>
+    <img src="/keyboard.png" alt="keyboard" id="keys">
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
