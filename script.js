@@ -422,7 +422,7 @@ function move() {
             figureCube[i].classList.add('fixed')
         }
         for(let i = 1; i < 15; i++){
-            let = count = 0;
+            let count = 0;
             for(let k = 1; k < 11; k++) {
                 if (document.querySelector(`[X = "${k}"][Y = "${i}"]`).classList.contains("fixed")) {
                     count++;
