@@ -451,7 +451,7 @@ function move() {
         }
         // hasni verevi toxin partvi
         for(let n = 1; n < 11; n++) {
-            if(document.querySelector(`[X = "${n}"][Y = "17"]`).classList.contains("fixed")) {
+            if(document.querySelector(`[X = "${n}"][Y = "20"]`).classList.contains("fixed")) {
                 clearInterval(interval);
                 alert(`GAME OVER. YOUR SCORE: ${score}`);
                 break;
